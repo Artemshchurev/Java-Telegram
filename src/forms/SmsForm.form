@@ -2,14 +2,14 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.SmsForm">
   <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="500" height="478"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <component id="82082" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -22,28 +22,19 @@
       </component>
       <component id="bf570" class="javax.swing.JLabel" binding="smsLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="35" right="0" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <font size="25"/>
+          <font size="30"/>
           <foreground color="-1"/>
           <text value="+7 900 078-59-29"/>
         </properties>
       </component>
-      <component id="cfe85" class="javax.swing.JPasswordField" binding="passwordField">
-        <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-          <gridbag top="0" left="0" bottom="40" right="0" weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties/>
-      </component>
       <component id="1ea01" class="javax.swing.JButton" binding="continueButton" custom-create="true">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="44" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <enabled value="false"/>
@@ -53,6 +44,49 @@
           <text value="ПРОДОЛЖИТЬ"/>
         </properties>
       </component>
+      <grid id="29213" binding="smsFieldPanel" custom-create="true" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="0">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="162" height="48"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="a43c8" binding="iconLockPanel" custom-create="true" layout-manager="GridBagLayout">
+            <constraints/>
+            <properties>
+              <opaque value="false"/>
+              <preferredSize width="26" height="36"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="cfe85" class="javax.swing.JPasswordField" binding="passwordField">
+            <constraints/>
+            <properties>
+              <font size="24"/>
+              <margin top="2" left="5" bottom="2" right="5"/>
+              <opaque value="false"/>
+              <preferredSize width="80" height="40"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="dc34a" binding="logoPanel" custom-create="true" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="60" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="124" height="98"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
     </children>
   </grid>
 </form>

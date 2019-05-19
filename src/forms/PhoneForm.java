@@ -32,8 +32,6 @@ public class PhoneForm {
             e.printStackTrace();
         }
 
-        phoneField.setOpaque(false);
-
         phoneField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {

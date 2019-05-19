@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b13d2f3-c14b-4493-9889-001688a201be" name="Default Changelist" comment="" />
+    <list default="true" id="8b13d2f3-c14b-4493-9889-001688a201be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/res/img/icon-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/logo-mini.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/PhoneForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/PhoneForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/PhoneForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/PhoneForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/SmsForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/SmsForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/SmsForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/SmsForm.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="74" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="74" />
+            <state relative-caret-position="198">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,31 +45,16 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/forms/Decoration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FormManager.java">
+        <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="260">
+              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,6 +71,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -80,13 +85,14 @@
         <option value="$PROJECT_DIR$/src/forms/ChatForm.form" />
         <option value="$PROJECT_DIR$/src/forms/ChatForm.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/forms/SmsForm.java" />
-        <option value="$PROJECT_DIR$/src/forms/SmsForm.form" />
-        <option value="$PROJECT_DIR$/src/forms/PhoneForm.java" />
-        <option value="$PROJECT_DIR$/src/forms/PhoneForm.form" />
         <option value="$PROJECT_DIR$/src/FormManager.java" />
         <option value="$PROJECT_DIR$/src/forms/Decoration.form" />
         <option value="$PROJECT_DIR$/src/forms/Decoration.java" />
+        <option value="$PROJECT_DIR$/.ginigmore" />
+        <option value="$PROJECT_DIR$/src/forms/SmsForm.java" />
+        <option value="$PROJECT_DIR$/src/forms/PhoneForm.form" />
+        <option value="$PROJECT_DIR$/src/forms/PhoneForm.java" />
+        <option value="$PROJECT_DIR$/src/forms/SmsForm.form" />
       </list>
     </option>
   </component>
@@ -94,6 +100,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -136,14 +143,14 @@
               <item name="diploma" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="forms" type="462c0819:PsiDirectoryNode" />
-              <item name="Decoration" type="e9f4de52:FormNode" />
+              <item name="PhoneForm" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="Telegram Client" type="b2602c69:ProjectViewProjectNode" />
               <item name="diploma" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="forms" type="462c0819:PsiDirectoryNode" />
-              <item name="PhoneForm" type="e9f4de52:FormNode" />
+              <item name="SmsForm" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -152,20 +159,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558232526557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558235773633" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/fake" />
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/img" />
       <recent name="$PROJECT_DIR$/res/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fake" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,12 +226,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17349398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2686747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20963855" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.14819278" />
@@ -322,25 +329,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/fonts/OpenSansLight.ttf" />
     <entry file="file://$PROJECT_DIR$/res/fonts/OpenSansRegular.ttf" />
-    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="389" column="11" selection-start-line="389" selection-start-column="11" selection-end-line="389" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -351,19 +343,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.java">
+    <entry file="file://$PROJECT_DIR$/res/img/icon-close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Telegram Client.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="74" />
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ginigmore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FormManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="213">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -371,27 +406,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/img/icon-close.png">
+    <entry file="file://$PROJECT_DIR$/res/img/icon-lock.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.java">
+    <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="198">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">

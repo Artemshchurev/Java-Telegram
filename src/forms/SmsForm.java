@@ -14,7 +14,11 @@ public class SmsForm {
     private JButton continueButton;
     private JPanel rootPanel;
     private JLabel smsLabel;
+    private JPanel smsFieldPanel;
+    private JPanel iconLockPanel;
+    private JPanel logoPanel;
     private BufferedImage background;
+    private BufferedImage lock;
     private BufferedImage logo;
 
     public JPanel getRootPanel() {
@@ -28,7 +32,8 @@ public class SmsForm {
     public SmsForm() {
         try {
             background = ImageIO.read(new File("res/img/background.png"));
-            logo = ImageIO.read(new File("res/img/logo.png"));
+            lock = ImageIO.read(new File("res/img/icon-lock.png"));
+            logo = ImageIO.read(new File("res/img/logo-mini.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -75,6 +80,25 @@ public class SmsForm {
                 g.drawImage(background, 0, 0, null);
             }
         };
+
+        iconLockPanel = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                g.drawImage(lock, 0, 0, null);
+            }
+        };
+
+        logoPanel = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                g.drawImage(logo, 0, 0, null);
+            }
+        };
+
+        smsFieldPanel = new JPanel();
+        smsFieldPanel.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, Color.WHITE));
 
         continueButton = new JButton();
         continueButton.setBackground(new Color(78, 178, 225));
