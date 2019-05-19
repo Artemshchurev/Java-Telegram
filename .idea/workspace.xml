@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b13d2f3-c14b-4493-9889-001688a201be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/img/icon-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/logo-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/icon-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/logo-micro.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/Decoration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/SmsForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/PhoneForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/PhoneForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/PhoneForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/PhoneForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/SmsForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/SmsForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/SmsForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/SmsForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/FormManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/FormManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/FormManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Telegram Client/forms/ChatForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telegram Client/forms/ChatForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/ChatForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/ChatForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/ChatForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/ChatForm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="452">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,12 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.form">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#1034#1244#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1273#1483#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -53,13 +68,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="156">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2104#2314#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FormManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -82,10 +116,7 @@
         <option value="$PROJECT_DIR$/src/fake/FakeTelegramBridge.java" />
         <option value="$PROJECT_DIR$/src/Form.java" />
         <option value="$PROJECT_DIR$/src/Form.form" />
-        <option value="$PROJECT_DIR$/src/forms/ChatForm.form" />
-        <option value="$PROJECT_DIR$/src/forms/ChatForm.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/FormManager.java" />
         <option value="$PROJECT_DIR$/src/forms/Decoration.form" />
         <option value="$PROJECT_DIR$/src/forms/Decoration.java" />
         <option value="$PROJECT_DIR$/.ginigmore" />
@@ -93,6 +124,9 @@
         <option value="$PROJECT_DIR$/src/forms/PhoneForm.form" />
         <option value="$PROJECT_DIR$/src/forms/PhoneForm.java" />
         <option value="$PROJECT_DIR$/src/forms/SmsForm.form" />
+        <option value="$PROJECT_DIR$/src/FormManager.java" />
+        <option value="$PROJECT_DIR$/src/forms/ChatForm.java" />
+        <option value="$PROJECT_DIR$/src/forms/ChatForm.form" />
       </list>
     </option>
   </component>
@@ -143,6 +177,20 @@
               <item name="diploma" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatForm" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="Telegram Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diploma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="Decoration" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="Telegram Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diploma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
               <item name="PhoneForm" type="e9f4de52:FormNode" />
             </path>
             <path>
@@ -159,7 +207,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558235773633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558241330194" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -216,6 +264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2067239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -226,12 +275,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2686747" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2060241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20963855" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20963855" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.14819278" />
@@ -276,19 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/Telegram API bridge v2.jar!/org/javagram/TelegramApiBridge.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -305,9 +341,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/background.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -346,9 +379,6 @@
     <entry file="file://$PROJECT_DIR$/res/img/icon-close.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Telegram Client.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -380,51 +410,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/img/logo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/icon-lock.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
+    <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.form">
+    <entry file="file://$PROJECT_DIR$/src/forms/Decoration.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FormManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2104#2314#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/forms/PhoneForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="452">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -432,7 +467,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/SmsForm.form">
+    <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#1034#1244#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1273#1483#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/ChatForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
