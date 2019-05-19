@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.Decoration">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="daa4a" binding="motionPanel" layout-manager="FlowLayout" hgap="16" vgap="8" flow-align="2">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1644826"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a251d" class="javax.swing.JButton" binding="hideButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="18" height="18"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="28dbe" class="javax.swing.JButton" binding="closeButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="18" height="18"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4e30e" binding="contentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <alignmentY value="0.5"/>
+          <background color="-12828863"/>
+          <preferredSize width="0" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
