@@ -28,6 +28,7 @@ public class ChatForm {
         }
 
         searchInput.setBorder(BorderFactory.createEmptyBorder());
+        chatContactsList.setCellRenderer(new ListCellRendererContact());
     }
 
     public JPanel getRootPanel() {
