@@ -1,14 +1,17 @@
 package forms;
 
+import org.javagram.response.object.UserContact;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class ChatForm {
-    private JList chatContactsList;
+    private JList<ContactListItem> chatContactsList;
     private JPanel rootPanel;
     private JPanel inlineLogoPanel;
     private JPanel leftSidePanel;
@@ -18,6 +21,7 @@ public class ChatForm {
     private JPanel headerPanel;
     private BufferedImage inlineLogo;
     private BufferedImage searchLogo;
+    private ArrayList<UserContact> contacts;
 
     public ChatForm() {
         try {
@@ -35,8 +39,8 @@ public class ChatForm {
         return rootPanel;
     }
 
-    public JList getChatContactsList() {
-        return chatContactsList;
+    public void setContacts(ArrayList<UserContact> contacts) {
+        this.contacts = contacts;
     }
 
     private void createUIComponents() {
@@ -55,5 +59,7 @@ public class ChatForm {
                 g.drawImage(searchLogo, 0, 0, null);
             }
         };
+
+        ((ListCellRendererContact) chatContactsList.getCellRenderer()).setContacts(contacts);
     }
 }

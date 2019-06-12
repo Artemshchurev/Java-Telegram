@@ -60,7 +60,7 @@ class FormManager extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     bridge.authSignIn(smsForm.getPassword());
-                    chatForm.getChatContactsList().setListData(bridge.contactsGetContacts().toArray());
+                    chatForm.setContacts(bridge.contactsGetContacts());
                     decoration.setContent(chatForm.getRootPanel());
                 } catch (IOException e1) {
                     e1.printStackTrace();
