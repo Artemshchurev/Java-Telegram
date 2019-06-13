@@ -23,7 +23,11 @@ public class ChatForm {
     private BufferedImage searchLogo;
     private ArrayList<UserContact> contacts;
 
-    public ChatForm() {
+    public ChatForm(ArrayList<UserContact> contacts) {
+        this.contacts = contacts;
+//        chatContactsList.setListData(this.contacts.toArray());
+        chatContactsList.setCellRenderer(new ListCellRendererContact());
+
         try {
             inlineLogo = ImageIO.read(new File("res/img/logo-micro.png"));
             searchLogo = ImageIO.read(new File("res/img/icon-search.png"));
@@ -32,15 +36,10 @@ public class ChatForm {
         }
 
         searchInput.setBorder(BorderFactory.createEmptyBorder());
-        chatContactsList.setCellRenderer(new ListCellRendererContact());
     }
 
     public JPanel getRootPanel() {
         return rootPanel;
-    }
-
-    public void setContacts(ArrayList<UserContact> contacts) {
-        this.contacts = contacts;
     }
 
     private void createUIComponents() {

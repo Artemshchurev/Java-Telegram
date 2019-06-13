@@ -39,7 +39,6 @@ class FormManager extends JFrame {
         });
 
         smsForm = new SmsForm();
-        chatForm = new ChatForm();
 
         phoneForm.getContinueButton().addActionListener(new ActionListener() {
             @Override
@@ -60,7 +59,7 @@ class FormManager extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     bridge.authSignIn(smsForm.getPassword());
-                    chatForm.setContacts(bridge.contactsGetContacts());
+                    chatForm = new ChatForm(bridge.contactsGetContacts());
                     decoration.setContent(chatForm.getRootPanel());
                 } catch (IOException e1) {
                     e1.printStackTrace();
