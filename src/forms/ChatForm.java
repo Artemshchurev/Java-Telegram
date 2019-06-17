@@ -43,6 +43,21 @@ public class ChatForm {
     }
 
     private void createUIComponents() {
+
+        ListCellRendererContact contactRenderer = new ListCellRendererContact();
+
+        /* Заполнение списка фейковыми контактами */
+        DefaultListModel<ContactListItem> modelContacts = new DefaultListModel<>();
+        for (int i = 0; i < contacts.size(); i++) {
+            modelContacts.addElement(new ContactListItem(contacts.get(i)));
+        }
+
+        chatContactsList = new JList<>(modelContacts);
+        chatContactsList.setCellRenderer(contactRenderer);
+        chatContactsList.setBorder(null);
+
+        ((ListCellRendererContact) chatContactsList.getCellRenderer()).setContacts(contacts);
+
         inlineLogoPanel = new JPanel() {
             @Override
             protected void paintComponent(Graphics g) {
@@ -58,7 +73,5 @@ public class ChatForm {
                 g.drawImage(searchLogo, 0, 0, null);
             }
         };
-
-        ((ListCellRendererContact) chatContactsList.getCellRenderer()).setContacts(contacts);
     }
 }
