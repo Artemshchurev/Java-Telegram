@@ -25,8 +25,6 @@ public class ChatForm {
 
     public ChatForm(ArrayList<UserContact> contacts) {
         this.contacts = contacts;
-        chatContactsList = new JList<ContactListItem>((ContactListItem[]) this.contacts.toArray());
-        chatContactsList.setCellRenderer(new ListCellRendererContact());
 
         try {
             inlineLogo = ImageIO.read(new File("res/img/logo-micro.png"));
